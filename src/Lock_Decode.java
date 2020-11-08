@@ -20,6 +20,7 @@ public class Lock_Decode {
 			sum=(int)(sum+Math.pow(rem,p));
 			num=num/10;
 		}
+		// Check for Amstrong number
 		if(temp==sum)
 		{
 			System.out.println("Amstrong numner");
@@ -50,6 +51,7 @@ public class Lock_Decode {
 		}
 
 	}
+	// Counting the number of digits
 	static int count(int n)
 	{
 		int c=0;
