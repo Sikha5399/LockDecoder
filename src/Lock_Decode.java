@@ -4,7 +4,7 @@ import java.lang.*;
 public class Lock_Decode {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter a number");
 		int num=sc.nextInt();
@@ -32,7 +32,7 @@ public class Lock_Decode {
 				}
 				sum=sum/10;
 			}
-			System.out.println(esum);
+			System.out.println("Sum of even digits = "+esum);
 		}
 		else
 		{
@@ -46,7 +46,7 @@ public class Lock_Decode {
 				}
 				temp=temp/10;
 			}
-			System.out.println(osum);
+			System.out.println("Sum of odd digits = "+osum);
 		}
 
 	}
